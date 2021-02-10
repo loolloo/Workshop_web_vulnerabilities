@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>XSS 1</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    Welcome! Want to write a note? Don't forget to share it if it's interesting
+    <img src="death_note.jpg">
+    <p>
+      <form action="/submit.php">
+	<textarea name="note" style="width: 100%; height: 150px; border: 4px light blue;" placeholder="Write a note here..."></textarea>
+	<input type="submit" value="Share" style="color: light blue;">
+      </form>
+    </p>
+  </body>
+</html>
