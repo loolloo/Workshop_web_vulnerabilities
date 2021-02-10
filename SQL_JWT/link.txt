@@ -1,0 +1,5 @@
+https://root-me.org/fr/Challenges/Web-Serveur/Injection-de-commande
+https://www.root-me.org/fr/Challenges/Web-Serveur/JSON-Web-Token-JWT-Introduction
+https://www.root-me.org/fr/Challenges/Web-Serveur/JSON-Web-Token-JWT-Secret-faible
+https://www.root-me.org/fr/Challenges/Web-Serveur/HTTP-Cookies
+https://www.root-me.org/fr/Challenges/Web-Serveur/SQL-injection-authentification
