@@ -1,0 +1,7 @@
+Hello this is my about page!
+
+This site is all about the challenge and the journey on how we surpass it.
+You may not believe it, but there is a flag hidden there.
+
+(But for real, if you want to know a little secret of mine. I made a file
+showing the php code in a secret source.php file. Don't tell anyone.)

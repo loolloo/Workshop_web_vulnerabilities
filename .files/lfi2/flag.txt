@@ -1,0 +1,1 @@
+lfi{Weak_lfi_protection_may_leak_confidential_files}
