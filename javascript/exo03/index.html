@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web Vulnaribility Exo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>    
+    <form>
+        User: <input type="text" id="user" name="user">
+        Password: <input type="text" id="pwd" name="pwd">
+    </form>
+    <img src="https://img.20mn.fr/sIChN5W-TCG0VWSpGYJYLw/830x532_tous-trolls.jpg">
+    <script>
+        var login = document.getElementById("user").value;
+        var pwd = document.getElementById("pwd").value;
+
+        if (login == "Viken") {
+            document.getElementById("err").innerHTML = "Go away hacker !!!";
+        } else if (login == "Henric") {
+            pwd = pwd.replace("7", "t");
+            pwd = pwd.replace("0", "o");
+            var sp = pwd.split("_");
+
+            if (sp[0][0] == "w" && sp[0][0] == "h" && sp[0][0] == "4" && sp[0][0] == "t" && sp[1][0] == MatH.sqrt(21 - 5) 
+                && sp[2][0] == "p" && sp[2][3] == (sp.length + 2) && sp[2][2] == "o" && sp[2][1] == "7") {
+                    let req = new XMLHttpRequest();
+                    req.onreadystatechange = function() {
+                        if (req.readyState == 4 && (req.status == 200 || req.status == 0)) {
+					        let data = JSON.parse(req.response);
+                            password_flag = data[0];
+                        }
+                    console.log('Password is:', password_flag);
+                    }
+                    req.open("GET", "http://localhost:8000/login.php", true);
+			        req.send();
+            }
+            else {
+                document.getElementById("err").innerHTML = "Go away hacker V2!!!";
+            }
+        }
+
+    </script>
+</body>
+</html>
