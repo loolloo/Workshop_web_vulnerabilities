@@ -5,8 +5,8 @@
   </head>
   <body>
     Welcome! Where would you like to go?
-    <a href="?page=page1.html">about</a>
-    <a href="?page=page2.html">about</a>
+    <a href="?page=page1.html">page1</a>
+    <a href="?page=page2.html">page2</a>
     <p>
       <?php
        $page = $_GET['page'];
