@@ -36,8 +36,7 @@
                         if (this.readyState == 4 && this.status == 200) {
                             data = this.responseText;
                             console.log("data response", data);
-                            var mdp = data.split("").reverse().join("");
-                            console.log("mot de pass", mdp);
+                            //Try to find the password inside the response (Pro tips to you know strrev ? :o )
                         }
                     };
                     xhttp.open("GET", "http://localhost:8000/login.php", true);
