@@ -1,7 +1,0 @@
-Pour lance ce challenge:
-Run cet commande dans un terminale
-- php -S localhost:8001 index.html
-- php -S localhost:8000 login.php
-
-
-A la fin du challenge fait un contrôle + C dans ton terminale pour kill la commande
