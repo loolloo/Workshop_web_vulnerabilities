@@ -35,9 +35,9 @@
                     xhttp.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
                             data = this.responseText;
-                            console.log(data);
+                            console.log("data response", data);
                             var mdp = data.split("").reverse().join("");
-                            console.log(mpd);
+                            console.log("mot de pass", mdp);
                         }
                     };
                     xhttp.open("GET", "http://localhost:8000/login.php", true);
