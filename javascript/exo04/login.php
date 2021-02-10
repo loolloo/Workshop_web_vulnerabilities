@@ -6,7 +6,7 @@
     header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
     if($_SERVER['REQUEST_METHOD'] = 'GET') {
-        $elem = "Iqtu9xxBWfGozDI9UNHqhkQps";
+        $elem = "iccuLsi13manym0ll3h";
         echo json_encode($elem);
         http_response_code(200);
     } else {

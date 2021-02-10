@@ -17,28 +17,33 @@
         </div>
     </form>
     <img src="https://img.20mn.fr/sIChN5W-TCG0VWSpGYJYLw/830x532_tous-trolls.jpg">
-    <script>
+    <script type="text/javascript">
         function Login(){
         var login = document.getElementById("user").value;
         var pwd = document.getElementById("pwd").value;
 
-        if (login == "Viken") {
+        if (login == "Patoche") {
             document.getElementById("err").innerHTML = "Go away hacker !!!";
-        } else if (login == "Henric") {
+        } else if (login == "Me") {
             pwd = pwd.replace("7", "t");
             pwd = pwd.replace("0", "o");
             var sp = pwd.split("_");
             console.log(sp);
-            if (sp[0][0] == "w" && sp[0][1] == "h" && sp[0][2] == "4" && sp[0][3] == "t" && sp[1][0] == Math.sqrt(21 - 5) && sp[2][0] == "T" && sp[2][2] == "k" && sp[2][1] == (sp.length - sp.length + 3)){
+            if (sp[0][0] == "W" && sp[0][1] == "8" && sp[0][2] == "4" && sp[0][3] == "t" && sp[1][0] == "T" && sp[1][2] == "k" && sp[1][1] == (sp.length - sp.length + 3)){
                     var xhttp = new XMLHttpRequest();
+                    var data;
                     xhttp.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
-                            console.log(this.responseText);
+                            data = this.responseText;
+                            console.log(data);
+                            var mdp = data.split("").reverse().join("");
+                            console.log(mpd);
                         }
                     };
                     xhttp.open("GET", "http://localhost:8000/login.php", true);
                     xhttp.send();
             }
+            
             else {
                 document.getElementById("err").innerHTML = "Go away hacker V2!!!";
             }
