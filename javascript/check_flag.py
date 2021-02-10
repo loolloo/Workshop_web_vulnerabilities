@@ -16,7 +16,7 @@ def usage():
     Don't forget the single quotes around the flag ( ' ) otherwise characters
     like ( ! ) or ( $ ) might change your argument in bash
 Usage:
-    ./verify 'flag{??????????????}'
+    ./verify 'js{??????????????}'
 
 if you want tips, try running the program with -tip
 """)
